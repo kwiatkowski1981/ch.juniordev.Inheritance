@@ -1,2 +1,4 @@
-public class ExhaustPart {
+public class ExhaustPart extends Part{
+
+    boolean europeanEmissionStandard;
 }
