@@ -15,4 +15,15 @@ public class ExhaustPart extends Part{
     public void setEuropeanEmissionStandard(boolean europeanEmissionStandard) {
         this.europeanEmissionStandard = europeanEmissionStandard;
     }
+
+
+    public void printInfo(){
+        System.out.println(getInfo());
+    }
+
+
+    String getInfo(){
+        return getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber() + " " + isEuropeanEmissionStandard();
+    }
+
 }

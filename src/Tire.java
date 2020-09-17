@@ -24,4 +24,10 @@ public class Tire extends Part{
     public void setWidth(double width) {
         this.width = width;
     }
+
+    public void printInfo(){
+
+        System.out.println(getIdNumber() + " " + getProducer() + " " + getType()
+                + " " + getSerialNumber() + " " + getSize() + " " + getWidth());
+    }
 }

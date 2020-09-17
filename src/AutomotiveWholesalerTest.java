@@ -10,6 +10,8 @@ public class AutomotiveWholesalerTest {
                 "WSAR 335", true);
 
 
-
+        part.printInfo();
+        tire.printInfo();
+        exhaustPart.printInfo();
     }
 }

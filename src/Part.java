@@ -44,4 +44,8 @@ public class Part {
     public void setSerialNumber(String serialNumber) {
         this.serialNumber = serialNumber;
     }
+
+    public void printInfo() {
+        System.out.println(getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber());
+    }
 }
