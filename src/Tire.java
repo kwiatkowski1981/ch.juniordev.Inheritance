@@ -25,9 +25,14 @@ public class Tire extends Part{
         this.width = width;
     }
 
-    public void printInfo(){
-
-        System.out.println(getIdNumber() + " " + getProducer() + " " + getType()
-                + " " + getSerialNumber() + " " + getSize() + " " + getWidth());
+    @Override
+    public String toString() {
+        return getIdNumber() + " " + getProducer() + " " + getType()
+                + " " + getSerialNumber() + " " + getSize() + " " + getWidth();
     }
+
+//          public void printInfo(){
+//          System.out.println(getIdNumber() + " " + getProducer() + " " + getType()
+//                + " " + getSerialNumber() + " " + getSize() + " " + getWidth());
+//    }
 }

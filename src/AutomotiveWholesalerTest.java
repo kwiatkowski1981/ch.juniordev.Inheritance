@@ -10,12 +10,26 @@ public class AutomotiveWholesalerTest {
                 "WSAR 335", true);
 
 
-        part.printInfo();
-        tire.printInfo();
-//        exhaustPart.printInfo();
+//      part.printInfo();
+//      tire.printInfo();
+//      exhaustPart.printInfo();
 
-        String printInfo1 = exhaustPart.toString();
-        System.out.println(printInfo1);
+        System.out.println(part);
+        System.out.println(tire);
+        System.out.println(exhaustPart);
+
+        System.out.println( "\n");
+
+
+        String partInfo = part.toString();
+        System.out.println(partInfo);
+
+        String tireInfo = tire.toString();
+        System.out.println(tireInfo);
+
+        String exhaustPartInfo = exhaustPart.toString();
+        System.out.println(exhaustPartInfo);
 
     }
 }
+

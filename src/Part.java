@@ -45,7 +45,13 @@ public class Part {
         this.serialNumber = serialNumber;
     }
 
-    public void printInfo() {
-        System.out.println(getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber());
+
+    @Override
+    public String toString() {
+        return getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber();
     }
+
+//    public void printInfo() {
+//        System.out.println(getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber());
+//    }
 }
