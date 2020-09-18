@@ -12,6 +12,10 @@ public class AutomotiveWholesalerTest {
 
         part.printInfo();
         tire.printInfo();
-        exhaustPart.printInfo();
+//        exhaustPart.printInfo();
+
+        String printInfo1 = exhaustPart.toString();
+        System.out.println(printInfo1);
+
     }
 }

@@ -17,13 +17,18 @@ public class ExhaustPart extends Part{
     }
 
 
-    public void printInfo(){
-        System.out.println(getInfo());
-    }
-
-
-    String getInfo(){
+    @Override
+    public String toString() {
         return getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber() + " " + isEuropeanEmissionStandard();
     }
+
+//    public void printInfo(){
+//        System.out.println(getInfo());
+//    }
+//
+//
+//    String getInfo(){
+//        return getIdNumber() + " " + getProducer() + " " + getType() + " " + getSerialNumber() + " " + isEuropeanEmissionStandard();
+//    }
 
 }
